@@ -15,8 +15,9 @@ namespace Practica_API.Data
         {
         }
 
-        public virtual DbSet<Beer> Beers { get; set; }
+        
         public virtual DbSet<Customer> Customers { get; set; }
+        public virtual DbSet<Beers> Beers { get; set; }
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{
         //    modelBuilder.Entity<Beer>().HasData(
